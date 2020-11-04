@@ -13,7 +13,7 @@
 
 body{
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -66,7 +66,7 @@ header nav a:hover{
     margin-top: 3px;  
 }
 
-.botao{
+.botao {
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
     color: white;
@@ -75,6 +75,7 @@ header nav a:hover{
     font-size: 12px;
     cursor: pointer;
     border-radius: 5px;
+    text-decoration: none;
 
     transition: .3s ease all;
 }
@@ -83,6 +84,7 @@ header nav a:hover{
     background-color: white;
     color: black;
 }
+
 
 .botao i{
     margin-right: 5px;
@@ -94,4 +96,14 @@ header nav a:hover{
 
 .filme-principal .container{
     width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
 }
